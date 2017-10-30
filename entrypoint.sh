@@ -1,4 +1,4 @@
 #!/bin/sh
 
-activemq start
-sh
+nohup activemq console &
+/bin/sh
